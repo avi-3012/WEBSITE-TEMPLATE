@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:#000000;
+}
+  
+#outermost{
+    /* border: 2px solid red; */
+    margin: auto;
+    width: auto;
+    height: 800px;
+
+}
+#logodiv{
+    box-sizing: border-box;
+    position: absolute;
+    top: 18%;
+    display: block;
+    padding: 0px;
+    width: 100%;
+    height: 52px;
+    margin: auto;
+}
+#logo{
+    display: block;
+    margin: auto;
+    height: 100%;
+}
+#left{
+    position: fixed;
+    /* border: 1px solid red; */
+    display:inline-block;
+    margin: 0px;
+    overflow: hidden;
+    width: 40%;
+    height: 100%;
+}
+#leftimg{
+    float: right;
+    height: 800px;
+}
+
+#right{
+    float:right;
+    /* border: 1px solid red; */
+    display:inline-block;
+    margin: 0px;
+    overflow: hidden;
+    width: 60%;
+    height: 1500px;
+    background-color: gray;
+}
+#rightimg{
+    height: 800px;
+}
+#name{
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    margin: 2px auto;
+    text-align: center;
+}
+#aboutme{
+    box-sizing: border-box;
+    position:absolute;
+    top:30%;
+    width: 70%;
+    margin:  1% 15%;
+    padding: 5%;
+    text-align: justify;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    opacity: 0.2;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+#aboutme1{
+    box-sizing: border-box;
+    position:absolute;
+    top:30%;
+    width: 70%;
+    margin: 1% 15%;
+    padding: 5%;
+    text-align: justify;
+    border-radius: 10px;
+    opacity: 1;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+#social{
+    box-sizing: border-box;
+    position:absolute;
+    top:90%;
+    width: 100%;
+    padding: 1% 4%;
+    margin: auto;
+
+}
+#social a{
+    text-decoration: none;
+    color: #827d98;
+}
+#social a:hover{
+    text-decoration: none;
+    color: #67948f;
+}
+#insta{
+    display: inline-block;
+    width: 33%;
+    float: left;
+    text-align: right;
+}
+#twitter{
+    display: inline-block;
+    width: 33%;
+    margin: auto;
+    text-align: center;
+
+}
+#github{
+    display: inline-block;
+    width: 33%;
+    float: right;
+}
+#navbar{
+    position: fixed;
+    /* border: 2px solid red; */
+    width: 100%;
+    margin: auto;
+    background-color: black;
+}
+#navbar ul li{
+    float: left;
+    list-style: none;
+    margin: 0px;
+    /* padding: 15px 1%; */
+    font-size: 20px;
+    padding-top: 15px;
+    /* padding-right: 1%; */
+    padding-bottom: 15px;
+    /* padding-left: 1%; */
+}
+#navbar li a{
+    /* margin: 15px 15px; */
+    padding:15px 15px;
+    text-decoration: none;
+    color: white;
+}
+#navbar li a:hover{
+    background-color: rgb(206, 206, 206);
+    color: black;
+}
+#contactForm{
+    box-sizing: border-box;
+    position: absolute;
+    border: 2px solid red;
+    width: 40%;
+    padding: 2% 5%;
+    margin: 5% 10%;
+    border-radius: 20px;
+    border:8px solid #515151;
+    text-align: center;
+    font-size: 40px;
+    color: #515151;
+    
+}
+#contactForm:hover{
+    border:8px solid #000000;
+    color: #000000;
+    
+}
+#contactForm span{
+    display: block;
+}
+#contactForm input{
+    padding: 1%;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid #515151;
+    border-radius: 20px;
+    font-size: 20px;
+    display: block;
+    margin: 20px auto;
+    padding: 12px;
+}
+#contactForm input:focus,#contactForm input:hover{
+    border: 4px solid black;
+}
+
+#contactForm input:focus{
+    outline: none;
+}
+#contactForm textarea{
+    padding: 1%;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid #515151;
+    border-radius: 20px;
+    font-size: 20px;
+    display: block;
+    margin: 20px auto;
+    padding: 12px;
+    width: 100x;
+}
+#contactForm textarea:focus{
+    outline:none;
+}
+#contactForm textarea:focus,#contactForm textarea:hover{
+    border: 4px solid black;
+}
+#btn{
+    margin: 1% 1%;
+    padding: 4% 20%;
+    border-radius: 15px;
+    border: 3px solid black;
+    background-color: grey;
+    color: black;
+}
+#btn:hover{
+    border:3px solid black;
+    background-color: rgb(0, 0, 0);
+    color: grey;
+}
+#btn:active{
+    border:none;
+    background-color: rgb(0, 0, 0);
+    color: grey;
+}
+
+
+
+
